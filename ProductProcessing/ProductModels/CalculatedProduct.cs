@@ -1,6 +1,7 @@
 ﻿namespace ProductModels
 {
-    internal class CalculatedProduct : ProductBase
+    //Рассчет кол-ва
+    public class CalculatedQuantityProduct : ProductBase
     {
         //Кол-во склад
         public int WarehouseQuantity { get; set; }
@@ -11,6 +12,18 @@
         //Общее кол-во
         public int TotalQuantity { get; set; }
 
+        //Списки поставщиков, субпродуктов и складов
+        public List<Supplier> Suppliers { get; set; } = new();
+        public List<SubProduct> SubProducts { get; set; } = new();
+        public List<Warehouse> Warehouses { get; set; } = new();
+
+        //Тип и вызов базового класса
+        public CalculatedQuantityProduct(string type) : base(type) { }
+    }
+
+    //Расчет цены
+    public class CalculatedPriceProduct : CalculatedQuantityProduct
+    {
         //Цена склад
         public decimal WarehousePrice { get; set; }
 
@@ -20,12 +33,7 @@
         //Минимальная цена
         public decimal MinPrice { get; set; }
 
-        //Списки поставщиков, субпродуктов и складов
-        public List<Supplier> Suppliers { get; set; } = new();
-        public List<SubProduct> SubProducts { get; set; } = new();
-        public List<Warehouse> Warehouses { get; set; } = new();
-
         //Тип и вызов базового класса
-        public CalculatedProduct(string type) : base(type) { }
+        public CalculatedPriceProduct(string type) : base(type) { }
     }
 }
