@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeedProcessor", "FeedProcessor\FeedProcessor.csproj", "{78EFC161-94E4-40AD-BB5A-6D06BCD7E9EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeedProcessor", "FeedProcessor\FeedProcessor.csproj", "{78EFC161-94E4-40AD-BB5A-6D06BCD7E9EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantityCalculator", "QuantityCalculator\QuantityCalculator.csproj", "{0EF66DBE-6315-4EBC-95FD-638318019139}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuantityCalculator", "QuantityCalculator\QuantityCalculator.csproj", "{0EF66DBE-6315-4EBC-95FD-638318019139}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriceCalculator", "PriceCalculator\PriceCalculator.csproj", "{30220621-955F-433C-A948-5FFC70BD13FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PriceCalculator", "PriceCalculator\PriceCalculator.csproj", "{30220621-955F-433C-A948-5FFC70BD13FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductModels", "ProductModels\ProductModels.csproj", "{3B15C94F-7A96-420A-A402-5DCA293A4B39}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLib", "SharedLib\SharedLib.csproj", "{4FCBBF04-A2D4-4817-B8D3-CC9038AED692}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{30220621-955F-433C-A948-5FFC70BD13FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30220621-955F-433C-A948-5FFC70BD13FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30220621-955F-433C-A948-5FFC70BD13FE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3B15C94F-7A96-420A-A402-5DCA293A4B39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3B15C94F-7A96-420A-A402-5DCA293A4B39}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3B15C94F-7A96-420A-A402-5DCA293A4B39}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3B15C94F-7A96-420A-A402-5DCA293A4B39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FCBBF04-A2D4-4817-B8D3-CC9038AED692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FCBBF04-A2D4-4817-B8D3-CC9038AED692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FCBBF04-A2D4-4817-B8D3-CC9038AED692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FCBBF04-A2D4-4817-B8D3-CC9038AED692}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

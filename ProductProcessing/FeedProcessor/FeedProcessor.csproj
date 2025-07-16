@@ -8,11 +8,26 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="input\**" />
+    <EmbeddedResource Remove="input\**" />
+    <None Remove="input\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="NLog" Version="6.0.0" />
+    <PackageReference Include="NLog.Config" Version="4.7.15" />
     <PackageReference Include="NLog.Extensions.Logging" Version="6.0.0" />
     <PackageReference Include="RabbitMQ.Client" Version="6.7.0" />
     <PackageReference Include="System.Text.Json" Version="9.0.6" />
+  </ItemGroup>
+  <ItemGroup>
+	<Content Include="nlog.config">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SharedLib\SharedLib.csproj" />
   </ItemGroup>
 
 </Project>
