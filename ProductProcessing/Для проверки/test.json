@@ -1,0 +1,110 @@
+[
+  {
+    "Id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "Type": "product",
+    "Suppliers": [
+      {
+        "Id": "4fa85f64-5717-4562-b3fc-2c963f66afb7",
+        "Quantity": 10,
+        "Price": 1500.00
+      },
+      {
+        "Id": "5fa85f64-5717-4562-b3fc-2c963f66afc8",
+        "Quantity": 5,
+        "Price": 1450.00
+      }
+    ],
+    "SubProducts": [],
+    "Warehouses": [
+      {
+        "Id": "6fa85f64-5717-4562-b3fc-2c963f66afd9",
+        "Quantity": 20,
+        "Price": 1550.00
+      }
+    ]
+  },
+  {
+    "Id": "7fa85f64-5717-4562-b3fc-2c963f66afe1",
+    "Type": "set",
+    "Suppliers": [],
+    "SubProducts": [
+      {
+        "Id": "8fa85f64-5717-4562-b3fc-2c963f66afe2",
+        "Suppliers": [
+          {
+            "Id": "9fa85f64-5717-4562-b3fc-2c963f66afe3",
+            "Quantity": 8,
+            "Price": 800.00
+          }
+        ],
+        "Warehouses": [
+          {
+            "Id": "afa85f64-5717-4562-b3fc-2c963f66afe4",
+            "Quantity": 15,
+            "Price": 850.00
+          }
+        ]
+      },
+      {
+        "Id": "bfa85f64-5717-4562-b3fc-2c963f66afe5",
+        "Suppliers": [
+          {
+            "Id": "cfa85f64-5717-4562-b3fc-2c963f66afe6",
+            "Quantity": 12,
+            "Price": 1200.00
+          }
+        ],
+        "Warehouses": [
+          {
+            "Id": "dfa85f64-5717-4562-b3fc-2c963f66afe7",
+            "Quantity": 10,
+            "Price": 1250.00
+          }
+        ]
+      }
+    ],
+    "Warehouses": []
+  },
+  {
+    "Id": "efa85f64-5717-4562-b3fc-2c963f66afe8",
+    "Type": "variant",
+    "Suppliers": [],
+    "SubProducts": [
+      {
+        "Id": "ffa85f64-5717-4562-b3fc-2c963f66afe9",
+        "Suppliers": [
+          {
+            "Id": "0fa85f64-5717-4562-b3fc-2c963f66aff0",
+            "Quantity": 7,
+            "Price": 700.00
+          }
+        ],
+        "Warehouses": [
+          {
+            "Id": "1fa85f64-5717-4562-b3fc-2c963f66aff1",
+            "Quantity": 8,
+            "Price": 750.00
+          }
+        ]
+      },
+      {
+        "Id": "2fa85f64-5717-4562-b3fc-2c963f66aff2",
+        "Suppliers": [
+          {
+            "Id": "3fa85f64-5717-4562-b3fc-2c963f66aff3",
+            "Quantity": 5,
+            "Price": 950.00
+          }
+        ],
+        "Warehouses": [
+          {
+            "Id": "4fa85f64-5717-4562-b3fc-2c963f66aff4",
+            "Quantity": 6,
+            "Price": 1000.00
+          }
+        ]
+      }
+    ],
+    "Warehouses": []
+  }
+]

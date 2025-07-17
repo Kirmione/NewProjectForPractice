@@ -1,0 +1,36 @@
+[
+  {
+    "Id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "Type": "product",
+    "Suppliers": [
+      {
+        "Id": "4fa85f64-5717-4562-b3fc-2c963f66afa1",
+        "Quantity": 10,
+        "Price": 100.00
+      }
+    ],
+    "Warehouses": [
+      {
+        "Id": "5fa85f64-5717-4562-b3fc-2c963f66afa1",
+        "Quantity": 5,
+        "Price": 105.00
+      }
+    ]
+  },
+  {
+    "Id": "3fa85f64-5717-4562-b3fc-2c963f66afa7",
+    "Type": "set",
+    "SubProducts": [
+      {
+        "Id": "6fa85f64-5717-4562-b3fc-2c963f66afa1",
+        "Warehouses": [
+          {
+            "Id": "7fa85f64-5717-4562-b3fc-2c963f66afa1",
+            "Quantity": 3,
+            "Price": 50.00
+          }
+        ]
+      }
+    ]
+  }
+]
