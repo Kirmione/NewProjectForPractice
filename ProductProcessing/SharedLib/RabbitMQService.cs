@@ -91,7 +91,7 @@ public class RabbitMQService : IDisposable
         {
             EnsureConnected();
 
-            // Объявляем очередь с параметрами:
+            // Объявляем очередь с параметрами
             channel.QueueDeclare(
                 queue: queueName,      
                 durable: durable,     
@@ -122,7 +122,7 @@ public class RabbitMQService : IDisposable
             var properties = channel.CreateBasicProperties();
             properties.Persistent = true;
 
-            // Публикуем сообщение:
+            // Публикуем сообщение
             channel.BasicPublish(
                 exchange: "",              
                 routingKey: queueName,     

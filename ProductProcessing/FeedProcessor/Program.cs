@@ -20,7 +20,7 @@ class Program
 
             var processor = new FeedProcessorLogic(rabbitService);
 
-            // Запускаем наблюдение за папкой "feed_input" в текущей директории
+            // Запускаем наблюдение за папкой feed_input в текущей директории
             processor.StartWatching(Path.Combine(Directory.GetCurrentDirectory(), "feed_input"));
 
             Console.WriteLine("Обработчик фида запущен. Нажмите Enter для остановки...");

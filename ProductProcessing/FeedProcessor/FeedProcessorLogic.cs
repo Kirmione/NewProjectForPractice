@@ -68,7 +68,7 @@ public class FeedProcessorLogic
 
             logger.Info($"Файл {e.Name} успешно отправлен в очередь");
 
-            // Архивируем обработанный файл в поддиректорию "processed"
+            // Архивируем обработанный файл в поддиректорию processed
             string processedDir = Path.Combine(Path.GetDirectoryName(e.FullPath), "processed");
             Directory.CreateDirectory(processedDir);
             File.Move(e.FullPath, Path.Combine(processedDir, e.Name));
