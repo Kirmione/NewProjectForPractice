@@ -57,7 +57,6 @@ public class RabbitMQService : IDisposable
             {
                 attempt++;
 
-                // Логируем ошибку
                 logger.Error(ex, $"Ошибка при подключении к RabbitMQ (попытка {attempt}/{maxAttempts})");
 
                 // Ожидание перед следующей попыткой
